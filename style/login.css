@@ -1,0 +1,140 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url('/img/logo.jpg');
+    background-repeat: no-repeat;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+
+form{
+    margin: 2% 0 0 7%;
+    border:6px solid #01bcf5;
+    background-color:rgba(15, 28, 87, 0.9);
+    width: 40%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+img{
+    margin: 2% 32% 5%;
+    width: 38%;
+    height: 10em;
+}
+
+.nombre::placeholder,
+.apellido::placeholder,
+input::placeholder{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #0f1c57;
+    font-size: 18px;
+}
+
+div{
+    display: flex;
+    padding: 0 0 13px 0;
+}
+
+.nombre, .apellido{
+    margin: auto;
+    outline: none;
+    width: 45%;
+    height: 40px;
+    border: 5px solid #01bcf5;
+    border-radius: 20px;
+}
+
+.titleForm{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+input{
+    margin: 0 5px;
+    outline: none;
+    width: 95%;
+    height: 40px;
+    border: 5px solid #01bcf5;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"]{
+    width: 20%;
+    height: 40px;
+    background-color: #1678e7;
+    color: white;
+    border: 5px solid #01bcf5;
+    font-size: 15px;
+    margin: 0 38%;
+}
+
+.btn-send:hover{
+    background-color: #0f1c57;
+    border:6px solid #1678e7;
+    cursor: pointer;
+}
+
+.password{
+    width: 60%;
+    height: 40px;
+}
+
+p>a{
+    text-decoration: none;
+    color: #1678e7;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+aside{
+    margin:60px 120px;
+}
+
+h1,h2{
+    color: white;
+    font-size: 30px;
+}
+
+.form-welcome-row{
+    display: block;
+}
+
+.socials-row {
+    display: flex;
+    background-color: #1678e7;
+}
+
+.socials-row img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 14px 30px;
+}
+
+.socials-row{
+    border-radius: 20px;
+    background-color: #0f1c57;
+    width: 75%;
+    height: 40px;
+    border: 6px solid #1678e7;
+    margin: 20px;
+}
+
+.socials-row:hover{
+    background-color: #1678e7;
+    border: 6px solid white;
+}
+
+.socials-row>p{
+    margin:16px 5%;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}

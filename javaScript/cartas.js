@@ -1,6 +1,6 @@
 const swiper = document.querySelector(".mySwiper");
 
-swiper=new Swiper(".mySwiper", {
+swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
   centeredSlides: true,
   slidesPerView: "auto",
