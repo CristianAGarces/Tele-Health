@@ -2,17 +2,17 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: url('/img/logo.jpg');
+    background: url('/img/imgFondo.jpg') no-repeat center center fixed;
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-
 }
 
 form{
-    margin: 2% 0 0 7%;
+    margin: 2.2% 0 0 7%;
     border:6px solid #01bcf5;
-    background-color:rgba(15, 28, 87, 0.9);
-    width: 40%;
+    background-color:rgba(153, 179, 195, 0.7);
+    width: 60%;
     height: auto;
     display: block;
     border-radius: 20px;
@@ -47,20 +47,21 @@ div{
 }
 
 .titleForm{
-    color: white;
+    color: #01bcf5;
     font-size: 50px;
     text-align: center;
     margin: 0;
 }
 
 input{
+    font-size: 18px;
     margin: 0 5px;
     outline: none;
     width: 95%;
     height: 40px;
     border: 5px solid #01bcf5;
     border-radius: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 input[type="submit"]{
@@ -86,30 +87,34 @@ input[type="submit"]{
 
 p>a{
     text-decoration: none;
-    color: #1678e7;
+    color: #01bcf5;
+}
+
+p>a:hover{
+    color: #f02;
 }
 
 p{
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
 aside{
+    width: 50%;
     margin:60px 120px;
 }
 
 h1,h2{
-    color: white;
+    color: #01bcf5;
     font-size: 30px;
+}
+
+.titleForm{
+    font-size: 42px;
 }
 
 .form-welcome-row{
     display: block;
-}
-
-.socials-row {
-    display: flex;
-    background-color: #1678e7;
 }
 
 .socials-row img {
@@ -120,10 +125,10 @@ h1,h2{
 
 .socials-row{
     border-radius: 20px;
-    background-color: #0f1c57;
+    background-color: rgba(153, 179, 195, 0.7);
     width: 75%;
     height: 40px;
-    border: 6px solid #1678e7;
+    border: 6px solid #01bcf5;
     margin: 20px;
 }
 
@@ -135,6 +140,59 @@ h1,h2{
 .socials-row>p{
     margin:16px 5%;
     text-align: center;
-    font-size: 16px;
-    color: white;
+    font-size: 18px;
+    color: black;
+}
+
+@media (max-width:600px) {
+    body{
+        background: url('/img/logo.jpg') no-repeat center center fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contenedor{
+        display: block;
+        margin: 5% 0 0 ;
+    }
+
+    form{
+        margin: auto;
+        width: 80%;
+        border:6px solid #01bcf5;
+        background-color:rgba(15, 28, 87, 0.9);
+    }
+
+    .titleForm{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+
+    input{
+        border: 6px solid #01bcf5;
+    }
+    
+    aside{
+        margin: 10% 0 0 15%;
+    }
+
+    h1,h2{
+        color: white;
+    }
+
+    .socials-row{
+        border:6px solid #01bcf5;
+        background-color:rgba(15, 28, 87, 0.9);
+        width: 130%;
+    }
+    .socials-row:hover{
+        background-color: #1678e7;
+        border: 6px solid white;
+    }
+    .socials-row>p{
+        color: white;
+    }
 }

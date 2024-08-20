@@ -1,3 +1,7 @@
+*{
+  scrollbar-color:white #0f1c57;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -11,7 +15,7 @@ body {
 }
 
 .Derecha img {
-  height: 100%;
+  height: 110%;
   width: 210%;
 }
 
@@ -34,7 +38,7 @@ body {
 }
 
 .swiper-wrapper {
-  padding: 50px 0 0 0;
+  margin: 45px 0 0 0;
   height: 500px;
 }
 
@@ -162,13 +166,13 @@ tbody tr:nth-child(even) {
 @media (max-width: 600px) {
   .contenedor {
     display: block;
-    padding: 130px 0 50px 0;
+    padding: 65px 0 40px 0;
   }
 
   .contenedor .Izquierda {
     width: 100%;
     position: relative;
-    padding: 0 0 30px 0;
+    padding: 0 0 0 0;
   }
 
   .contenedor .Derecha {
