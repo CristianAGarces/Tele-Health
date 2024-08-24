@@ -11,9 +11,8 @@ h1 {
 }
 
 .container-form {
-  padding: 50px 20px 30px 20px;
-  width: 100%;
-  max-width: 1100px;
+  padding: 80px 60px 60px 40px;
+  width: 99%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -78,8 +77,8 @@ textarea {
 }
 
 .container-form form textarea {
-  max-width: 530px;
-  max-height: 150px;
+  width: 530px;
+  height: 150px;
 }
 
 .container-form .btn-enviar {
@@ -102,14 +101,10 @@ textarea {
 @media (max-width: 720px) {
   .container-form {
     display: block;
-    margin-top: 80px;
+    width: 100%;
   }
 
-  form {
-    margin-top: 20px;
-  }
-
-  textarea {
-    height: 300px;
+  form{
+    margin-top: 25px;
   }
 }
