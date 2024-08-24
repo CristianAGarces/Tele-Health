@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
+  scrollbar-color:white #0f1c57;
 }
 
 .menu__wrapper {
