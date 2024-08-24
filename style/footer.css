@@ -80,7 +80,7 @@ i{
     width: 120%;
 }
 
-@media(max-width:600px){
+@media(max-width:720px){
     .footer-row{
         text-align: center;
         display: block;

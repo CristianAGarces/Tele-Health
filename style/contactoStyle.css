@@ -99,7 +99,7 @@ textarea {
   background: #3f86d8;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .container-form {
     display: block;
     margin-top: 80px;

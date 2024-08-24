@@ -124,13 +124,13 @@
   color: white;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   .menu-icon {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .navigation {
     display: none;
   }
