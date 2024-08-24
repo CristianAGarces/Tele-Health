@@ -174,8 +174,8 @@ tbody tr:nth-child(even) {
     width: 100%;
   }
 
-  .slider{
-    margin-top:580px;
+  .slider {
+    margin-top: 700px;
   }
 }
 
@@ -217,7 +217,6 @@ tbody tr:nth-child(even) {
   border: 1px ridge rgba(0, 0, 0, 0.1);
   width: 400px;
   transition: 300ms;
- 
 }
 
 .card:hover {
@@ -230,11 +229,11 @@ tbody tr:nth-child(even) {
   width: 100%;
 }
 
-.card-body{
-  padding:10px;
+.card-body {
+  padding: 10px;
 }
 
-.card-title{
+.card-title {
   font-size: 28px;
 }
 
