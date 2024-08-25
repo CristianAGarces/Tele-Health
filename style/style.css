@@ -236,23 +236,74 @@ tbody tr:nth-child(even) {
   font-size: 28px;
 }
 
-.card-text {
-  overflow: hidden;
-}
-
 .rating {
   display: flex;
   justify-content: space-between;
 }
 
-.star {
+.star1 {
   font-size: 40px;
   color: #bbb;
   transition: color 0.3s;
   cursor: pointer;
 }
 
-.star:hover,
-.star.checked {
+.star1:hover,
+.star1.checked {
+  color: gold;
+}
+.star2 {
+  font-size: 40px;
+  color: #bbb;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.star2:hover,
+.star2.checked {
+  color: gold;
+}
+.star3 {
+  font-size: 40px;
+  color: #bbb;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.star3:hover,
+.star3.checked {
+  color: gold;
+}
+.star4 {
+  font-size: 40px;
+  color: #bbb;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.star4:hover,
+.star4.checked {
+  color: gold;
+}
+.star5 {
+  font-size: 40px;
+  color: #bbb;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.star5:hover,
+.star5.checked {
+  color: gold;
+}
+.star6 {
+  font-size: 40px;
+  color: #bbb;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.star6:hover,
+.star6.checked {
   color: gold;
 }
