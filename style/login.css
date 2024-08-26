@@ -148,7 +148,7 @@ h1,h2{
     color: black;
 }
 
-@media (max-width:720px) {
+@media (max-width:800px) {
     body{
         background: url('../img/logo.jpg') no-repeat center center fixed;
         background-repeat: no-repeat;
