@@ -177,8 +177,12 @@ tbody tr:nth-child(even) {
     height: auto;
     width: 100%;
   }
+  .contenedor .Derecha img{
+    height: 300px;
+    width: 340px;
+  }
   .slider {
-    margin-top: 360px;
+    margin-top: 260px;
   }
   .slide {
     width: 400px;
