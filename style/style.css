@@ -179,13 +179,21 @@ tbody tr:nth-child(even) {
     width: 100%;
   }
   .slider {
-    margin-top: 590px;
+    margin-top: 650px;
   }
   .slide{
     width: 400px;
   }
   .swiper-slide{
-    width: 99%;
+    width: 85%;
+  }
+  .product-content{
+    width: 100%;
+    height: auto;
+  }
+  .product-txt{
+    width: 40%;
+    height: auto;
   }
 }
 
