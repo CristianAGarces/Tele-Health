@@ -184,9 +184,6 @@ tbody tr:nth-child(even) {
   .slider {
     margin-top: 260px;
   }
-  .slide {
-    width: 400px;
-  }
   .swiper-slide {
     width: 85%;
   }
