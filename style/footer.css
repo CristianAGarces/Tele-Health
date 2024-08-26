@@ -84,7 +84,7 @@ i{
     .footer-row{
         text-align: center;
         display: block;
-        width: auto;
+        width: 100%;
     }
 
     .footer-links{
