@@ -1,6 +1,4 @@
 const swiper = document.querySelector(".mySwiper");
-const swiperPrev= document.querySelector(".swiper-slide");
-const flechaIcon=document.getElementById("1");
 
 swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
@@ -26,8 +24,4 @@ document.addEventListener("keydown", function (event) {
   } else if (event.key === "ArrowRight") {
     swiper.slideNext();
   }
-});
-
-document.getElementById('1').addEventListener('click', function() {
-  swiper.slidePrev();
 });
